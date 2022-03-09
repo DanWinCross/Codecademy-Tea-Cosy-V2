@@ -1,0 +1,154 @@
+/* provisional document styling */
+
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+}
+
+
+
+/* header section */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: column;
+    width: 100%;
+    min-height: 69px;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    background-color: black;
+    opacity: 0.9;
+    border-bottom: 1px solid seashell;
+}
+
+.logo {
+ height: 50px;
+ float: left;
+ padding: 10px; 
+}
+
+.nav    {
+    float: left;
+    height: 100%;
+    margin: 0; 
+}
+
+.nav a {
+    display: table;
+    float: left;
+    padding: 0px 20px;
+   
+}
+
+.nav a li {
+    display: table-cell;
+    text-decoration: underline;
+    color: seashell;
+   
+   }
+   
+/* mission section */
+
+.mission-container {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+    background-repeat: none;
+    background-position: center;
+    position: relative;
+    top: 30px;
+    height: 700px;
+    max-width: 1200px;
+    margin: 40px auto; 
+    display: flex;
+    margin-bottom: 100px;
+}
+
+ .mission-text{
+    margin: auto;
+    width: 100%;
+    background-color: black;
+    opacity: 0.9;
+}
+
+/* feature section  */
+
+
+
+.feature-container {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.feature-image {
+    height: 200px;
+    width: 300px;
+}
+
+
+
+.feature-box h4 {
+    margin: 10px;
+}
+
+/* location section */
+
+.location-container {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+    background-repeat: none;
+    background-position: center;
+    min-height: 500px;
+    max-width: 1200px;
+    display: flex; 
+    margin: 70px 70px 0px 70px;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.location-box {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    max-width: 1200px;
+    flex-shrink: 1;
+    border: 0px 15px 0px;
+}
+
+.address {
+    display: flex;
+    min-width: 300px;
+    max-height: 300px;
+    justify-items: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.address h4  {
+    margin: 15px;
+}
+
+/* footer section */
+
+
+footer h2 {
+    margin: 10px;
+}
+
+.copyright {
+    float: left;
+    padding-left: 20px;
+}
+
+
+
